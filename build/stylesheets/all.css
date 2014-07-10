@@ -1,0 +1,909 @@
+@font-face {
+  font-family: 'Scala Sans SC';
+  src: url("../fonts/scalasans-regularsc-webfont.eot");
+  src: url("../fonts/scalasans-regularsc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scalasans-regularsc-webfont.woff") format("woff"), url("../fonts/scalasans-regularsc-webfont.ttf") format("truetype"), url("../fonts/scalasans-regularsc-webfont.svg#ScalaSansSCRegular") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Scala';
+  src: url("../fonts/scala-webfont.eot");
+  src: url("../fonts/scala-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-webfont.woff") format("woff"), url("../fonts/scala-webfont.ttf") format("truetype"), url("../fonts/scala-webfont.svg#Scala") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: 'Scala';
+  src: url("../fonts/scala-italic-webfont.eot");
+  src: url("../fonts/scala-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-italic-webfont.woff") format("woff"), url("../fonts/scala-italic-webfont.ttf") format("truetype"), url("../fonts/scala-italic-webfont.svg#ScalaItalic") format("svg");
+  font-style: italic;
+  font-weight: normal; }
+
+/* line 60, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table; }
+
+/* line 65, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 69, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+a, a:visited {
+  color: #58852c;
+  text-decoration: none; }
+
+/* line 74, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+a:hover, a:focus {
+  color: #4f9c02;
+  text-decoration: underline; }
+
+/* line 79, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+a:active {
+  color: #356901; }
+
+/* line 83, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto; }
+
+/* line 89, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.readmill-logo-medium {
+  display: block;
+  width: 163px;
+  height: 43px;
+  text-indent: -900em;
+  background: transparent url(../images/logo-readmill-medium.svg) no-repeat 0 0;
+  background-size: 163px 43px; }
+
+/* line 98, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.ie .readmill-logo-medium {
+  background-image: url(../images/logo-readmill-medium.png); }
+
+/* line 105, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: none; }
+
+/* line 111, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+html {
+  font-family: Scala,Georgia,Times,serif;
+  font-variant: normal;
+  text-transform: none; }
+
+/* line 117, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+header, section {
+  line-height: 1.5;
+  padding: 70px 20px;
+  -webkit-font-smoothing: antialiased; }
+  @media only screen and (min-width: 500px) {
+    /* line 117, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    header, section {
+      padding: 70px 28px; } }
+  @media only screen and (min-width: 760px) {
+    /* line 117, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    header, section {
+      padding: 120px 100px; } }
+  @media only screen and (min-width: 1100px) {
+    /* line 117, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    header, section {
+      padding: 150px 150px;
+      line-height: 1.7; } }
+
+/* line 136, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.wrap {
+  position: relative; }
+
+@media only screen and (min-width: 760px) {
+  /* line 140, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .content {
+    max-width: 550px; } }
+
+/* line 146, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+h1 {
+  font-size: 25px;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 760px) {
+    /* line 146, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    h1 {
+      font-size: 32px; } }
+  /* line 154, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  h1.bottom-margin-large {
+    margin-bottom: 30px; }
+    @media only screen and (min-width: 760px) {
+      /* line 154, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      h1.bottom-margin-large {
+        margin-bottom: 60px; } }
+
+/* line 163, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+h2 {
+  font-size: 18px;
+  margin-bottom: 10px; }
+  @media only screen and (min-width: 760px) {
+    /* line 163, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    h2 {
+      font-size: 20px; } }
+
+/* line 172, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+p {
+  margin-bottom: 24px;
+  color: #808080; }
+  /* line 176, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  p:last-child {
+    margin-bottom: 0; }
+
+/* line 181, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+a.btn, .btn {
+  color: #ffffff;
+  background-color: #70b32d;
+  font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+  text-transform: lowercase;
+  font-size-adjust: .453;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding: 12px 20px 14px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  line-height: 1.25;
+  text-align: center;
+  margin: 0;
+  border: 0;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block; }
+  /* line 202, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  a.btn:hover, .btn:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #629f24; }
+
+/* line 209, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.no-wrap {
+  white-space: nowrap; }
+
+/* line 213, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 218, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.header {
+  padding-top: 25px;
+  padding-bottom: 0px; }
+  @media only screen and (min-width: 500px) {
+    /* line 218, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .header {
+      padding-top: 50px; } }
+  /* line 226, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .header .readmill-logo-medium {
+    width: 100px;
+    height: 28px;
+    background-size: 100px auto;
+    float: left; }
+  /* line 233, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .header .nav {
+    float: right;
+    color: #808080; }
+    /* line 237, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .header .nav a {
+      color: #808080; }
+    /* line 241, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .header .nav .username {
+      text-transform: capitalize; }
+
+/* line 248, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.epilogue p {
+  color: #000; }
+
+/* line 253, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.next-steps {
+  background: #f7f7f7;
+  text-align: left; }
+  /* line 257, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps .btn {
+    width: 100%; }
+    @media only screen and (min-width: 500px) {
+      /* line 257, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .next-steps .btn {
+        width: inherit; } }
+  /* line 265, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps ul {
+    border-top: 1px solid #e5e5e5;
+    width: 100%;
+    padding-top: 30px;
+    margin-top: 50px;
+    padding-left: 40px;
+    position: relative; }
+    /* line 273, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .next-steps ul:before {
+      content: "how it works";
+      font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+      color: #808080;
+      font-size: 15px;
+      position: absolute;
+      top: -14px;
+      left: 0;
+      background: #f7f7f7;
+      padding-right: 10px; }
+    /* line 285, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .next-steps ul li {
+      margin-bottom: 25px; }
+      @media only screen and (min-width: 600px) {
+        /* line 285, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .next-steps ul li {
+          margin-bottom: 15px; } }
+      /* line 292, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .next-steps ul li:last-child {
+        margin-bottom: 0; }
+  /* line 298, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps img {
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: -35px;
+    margin-top: 5px;
+    float: left; }
+  /* line 306, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps .book img {
+    width: 15px;
+    margin-left: -32px; }
+  /* line 311, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps .dropbox img {
+    width: 22px; }
+  /* line 315, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps .adobe img {
+    width: 22px; }
+  /* line 318, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .next-steps .app img {
+    width: 15px;
+    margin-left: -32px; }
+
+/* line 324, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.export {
+  background: #f7f7f7;
+  text-align: left;
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 0;
+  overflow: visible; }
+  @media only screen and (min-width: 500px) {
+    /* line 324, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .export {
+      text-align: center; } }
+  /* line 335, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .export .content {
+    max-width: 600px;
+    margin: 0 auto; }
+  /* line 340, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .export .btn {
+    width: 100%; }
+    @media only screen and (min-width: 500px) {
+      /* line 340, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .export .btn {
+        width: inherit; } }
+  /* line 348, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .export .hero-image {
+    max-width: 1134px;
+    background-image: url(../images/footer-hero-image.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    padding-top: 36%;
+    background-size: contain;
+    margin: 40px auto 0; }
+    @media only screen and (min-width: 500px) {
+      /* line 348, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .export .hero-image {
+        margin-top: 70px;
+        background-image: url(../images/footer-hero-image@2x.png); } }
+    @media only screen and (min-width: 1430px) {
+      /* line 348, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .export .hero-image {
+        height: 406px;
+        padding-top: 0px;
+        margin-top: 120px; } }
+
+/* line 375, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.faq {
+  background: #f7f7f7; }
+  /* line 378, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .faq p {
+    margin-bottom: 30px; }
+    @media only screen and (min-width: 500px) {
+      /* line 378, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .faq p {
+        margin-bottom: 60px; } }
+    /* line 385, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .faq p:last-child {
+      margin-bottom: 0; }
+
+/* line 395, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.history,
+.numbers,
+.books,
+.staff,
+.acknowledge {
+  color: #afafaf; }
+  /* line 398, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history h1,
+  .numbers h1,
+  .books h1,
+  .staff h1,
+  .acknowledge h1 {
+    color: #fff; }
+  /* line 402, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history p, .history ul,
+  .numbers p,
+  .numbers ul,
+  .books p,
+  .books ul,
+  .staff p,
+  .staff ul,
+  .acknowledge p,
+  .acknowledge ul {
+    color: #afafaf; }
+
+/* line 407, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.history {
+  background: #050505;
+  text-align: center; }
+  /* line 47, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history:before, .history:after {
+    content: "";
+    display: table; }
+  /* line 51, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history:after {
+    clear: both; }
+  /* line 55, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie7 .history {
+    zoom: 1; }
+  /* line 412, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history .content {
+    max-width: 500px;
+    margin: 0 auto; }
+  /* line 417, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history h4 {
+    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-transform: lowercase;
+    margin-bottom: 10px; }
+    @media only screen and (min-width: 500px) {
+      /* line 417, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .history h4 {
+        font-size: 20px;
+        margin-bottom: 10px; } }
+  /* line 430, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .history p {
+    font-style: italic;
+    font-size: 14px; }
+    @media only screen and (min-width: 500px) {
+      /* line 430, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .history p {
+        font-size: 16px; } }
+
+/* line 440, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.numbers {
+  background: #101010;
+  position: relative; }
+  /* line 47, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .numbers:before, .numbers:after {
+    content: "";
+    display: table; }
+  /* line 51, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .numbers:after {
+    clear: both; }
+  /* line 55, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie7 .numbers {
+    zoom: 1; }
+  @media only screen and (min-width: 1030px) {
+    /* line 445, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .numbers .content {
+      position: absolute; } }
+  /* line 451, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .numbers .number-block {
+    margin-top: 40px; }
+    @media only screen and (min-width: 500px) {
+      /* line 451, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .numbers .number-block {
+        float: left;
+        width: 50%; } }
+    /* line 459, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .numbers .number-block h3 {
+      font-size: 50px;
+      color: #fff;
+      margin-bottom: 0; }
+      @media only screen and (min-width: 1100px) {
+        /* line 459, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .numbers .number-block h3 {
+          font-size: 80px; } }
+    /* line 473, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .numbers .number-block p {
+      font-size: 14px; }
+      @media only screen and (min-width: 1100px) {
+        /* line 473, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .numbers .number-block p {
+          font-size: 16px; } }
+
+/* line 483, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.books {
+  background: #171717; }
+  @media only screen and (min-width: 500px) {
+    /* line 483, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books {
+      padding-right: 60px; } }
+  @media only screen and (min-width: 1200px) {
+    /* line 483, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books {
+      padding-right: 60px; } }
+  /* line 494, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .books .book {
+    width: 46%;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 40px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #afafaf; }
+    /* line 503, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .ie .books .book {
+      padding-left: 0px;
+      margin-right: 37px;
+      width: 120px; }
+    @media only screen and (min-width: 500px) {
+      /* line 494, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .books .book {
+        padding-left: 0px;
+        margin-right: 20px;
+        width: 120px; } }
+    @media only screen and (min-width: 1200px) {
+      /* line 494, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .books .book {
+        margin-right: 60px;
+        margin-top: 60px; } }
+    /* line 520, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book:nth-child(odd) {
+      padding-right: 10px; }
+      @media only screen and (min-width: 500px) {
+        /* line 520, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .books .book:nth-child(odd) {
+          padding-right: 0; } }
+    /* line 528, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book:nth-child(even) {
+      padding-left: 10px; }
+      @media only screen and (min-width: 500px) {
+        /* line 528, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .books .book:nth-child(even) {
+          padding-left: 0; } }
+    /* line 536, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book .wrap {
+      white-space: normal; }
+    /* line 540, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book img {
+      width: 100%;
+      display: inline;
+      font-size: 0;
+      margin-bottom: 7px; }
+      /* line 546, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .ie .books .book img {
+        width: 100px; }
+      @media only screen and (min-width: 500px) {
+        /* line 540, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .books .book img {
+          width: 100px; } }
+    /* line 555, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book .title {
+      color: #fff;
+      display: block;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+    /* line 564, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .books .book .author {
+      display: block;
+      width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis; }
+
+/* line 574, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.staff {
+  background: #1c1c1c; }
+  /* line 577, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie .staff {
+    padding-right: 60px; }
+  @media only screen and (min-width: 500px) {
+    /* line 574, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff {
+      padding-right: 60px; } }
+  @media only screen and (min-width: 1200px) {
+    /* line 574, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff {
+      padding-right: 80px; } }
+  /* line 589, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .staff .employee {
+    float: left;
+    width: 46%;
+    font-size: 14px;
+    margin-top: 40px; }
+    /* line 595, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .ie .staff .employee {
+      padding-left: 0px;
+      margin-right: 40px;
+      width: 120px; }
+    @media only screen and (min-width: 500px) {
+      /* line 589, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .staff .employee {
+        padding-left: 0px;
+        margin-right: 20px;
+        width: 120px; } }
+    @media only screen and (min-width: 1200px) {
+      /* line 589, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .staff .employee {
+        margin-right: 60px;
+        margin-top: 60px; } }
+    /* line 612, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff .employee:nth-child(even) {
+      padding-right: 10px; }
+      @media only screen and (min-width: 500px) {
+        /* line 612, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .staff .employee:nth-child(even) {
+          padding-right: 0; } }
+    /* line 620, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff .employee:nth-child(odd) {
+      padding-left: 10px; }
+      @media only screen and (min-width: 500px) {
+        /* line 620, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .staff .employee:nth-child(odd) {
+          padding-left: 0; } }
+    /* line 628, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff .employee img {
+      width: 100%;
+      margin-bottom: 15px; }
+      /* line 632, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .ie .staff .employee img {
+        width: 100px; }
+      @media only screen and (min-width: 500px) {
+        /* line 628, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+        .staff .employee img {
+          width: 100px; } }
+    /* line 641, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .staff .employee .name {
+      display: block;
+      color: #fff; }
+      /* line 645, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .staff .employee .name:hover {
+        text-decoration: underline; }
+
+/* line 652, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.acknowledge {
+  background: #212121; }
+  /* line 655, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .acknowledge ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    font-size: 14px;
+    margin-top: 40px; }
+    @media only screen and (min-width: 330px) {
+      /* line 655, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .acknowledge ul {
+        columns: 3;
+        -webkit-columns: 3;
+        -moz-columns: 3; } }
+    @media only screen and (min-width: 700px) {
+      /* line 655, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .acknowledge ul {
+        columns: 4;
+        -webkit-columns: 4;
+        -moz-columns: 4; } }
+    @media only screen and (min-width: 1000px) {
+      /* line 655, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .acknowledge ul {
+        columns: 5;
+        -webkit-columns: 5;
+        -moz-columns: 5; } }
+    @media only screen and (min-width: 1260px) {
+      /* line 655, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .acknowledge ul {
+        columns: 6;
+        -webkit-columns: 6;
+        -moz-columns: 6; } }
+  /* line 687, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .acknowledge p, .acknowledge ul {
+    color: #afafaf; }
+
+/* line 692, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.chart {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  opacity: 0;
+  visibility: hidden;
+  height: 0;
+  width: 0; }
+  @media only screen and (min-width: 1030px) {
+    /* line 692, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .chart {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+      width: auto;
+      height: auto; } }
+
+/* line 713, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.chart-img {
+  display: block;
+  margin-top: 15px; }
+  /* line 47, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .chart-img:before, .chart-img:after {
+    content: "";
+    display: table; }
+  /* line 51, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .chart-img:after {
+    clear: both; }
+  /* line 55, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie7 .chart-img {
+    zoom: 1; }
+  @media only screen and (min-width: 1030px) {
+    /* line 713, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .chart-img {
+      display: none; } }
+  /* line 722, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .chart-img .date {
+    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif !important;
+    text-transform: lowercase;
+    font-size: 15px;
+    color: #404040; }
+    /* line 728, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .chart-img .date.left {
+      float: left; }
+    /* line 732, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .chart-img .date.right {
+      float: right; }
+
+/* line 738, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+div.bar {
+  display: inline-block;
+  width: 2px;
+  height: 75px;
+  background-color: #afafaf;
+  margin-right: 1px; }
+
+/* line 746, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.axis text {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #afafaf; }
+
+/* line 752, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.axis path, .axis line {
+  display: none; }
+
+/* line 756, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+text {
+  font-family: "Scala Sans SC",Helvetica,Arial,sans-serif !important;
+  text-transform: lowercase; }
+
+/* line 761, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+body > section.numbers > div > div.chart > svg > g.x.axis > g:nth-child(1) {
+  text-anchor: initial !important; }
+  /* line 764, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  body > section.numbers > div > div.chart > svg > g.x.axis > g:nth-child(1) text {
+    text-anchor: inherit !important; }
+
+/* line 769, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+body > section.numbers > div > div.chart > svg > g.x.axis > g:nth-child(3) {
+  text-anchor: end !important; }
+  /* line 772, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  body > section.numbers > div > div.chart > svg > g.x.axis > g:nth-child(3) text {
+    text-anchor: inherit !important; }
+
+/* line 777, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+circle {
+  display: none; }
+
+/* line 781, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.milestone.large-cir, .milestone.small-cir {
+  display: block;
+  fill: white;
+  cursor: pointer; }
+
+/* line 787, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.milestone-label {
+  position: absolute;
+  font-size: 16px;
+  color: #000;
+  opacity: 0;
+  z-index: 1;
+  margin-top: -20px;
+  width: 280px;
+  padding: 30px 20px;
+  background: #fff;
+  margin-top: 10px;
+  transition-duration: 185ms;
+  transition-property: opacity, margin;
+  transition-delay: 150ms;
+  text-align: center; }
+  /* line 804, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .milestone-label span {
+    display: block; }
+  /* line 808, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .milestone-label .date {
+    color: black;
+    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+    text-transform: lowercase;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    display: inline-block; }
+  /* line 818, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .milestone-label .title {
+    color: black;
+    font-size: 16px;
+    margin-bottom: 5px;
+    line-height: 1.5; }
+  /* line 825, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .milestone-label .desc {
+    color: gray;
+    font-size: 14px; }
+
+/* line 831, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.milestone-label.show {
+  margin-top: 0px;
+  opacity: 1;
+  transition-delay: 200ms; }
+
+/* line 837, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.milestone-label:after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  /* arrow size is border left + border right */
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -10px;
+  left: 155px;
+  /* width of tooltip - half arrow size */
+  border-top: 10px solid #fff; }
+
+/* line 850, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+footer.page-footer {
+  padding: 30px 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-font-smoothing: antialiased; }
+  /* line 47, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer:before, footer.page-footer:after {
+    content: "";
+    display: table; }
+  /* line 51, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer:after {
+    clear: both; }
+  /* line 55, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie7 footer.page-footer {
+    zoom: 1; }
+  @media only screen and (min-width: 960px) {
+    /* line 850, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    footer.page-footer {
+      padding-left: 100px;
+      padding-right: 100px; } }
+  @media only screen and (min-width: 1100px) {
+    /* line 850, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    footer.page-footer {
+      padding-left: 150px;
+      padding-right: 150px; } }
+  /* line 867, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer nav {
+    width: 70%; }
+  /* line 871, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer .column {
+    padding-left: 0; }
+    @media only screen and (min-width: 500px) {
+      /* line 871, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      footer.page-footer .column {
+        padding-left: 20px; } }
+  /* line 879, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer .social {
+    margin-right: 0; }
+  /* line 883, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer .social span {
+    color: #000; }
+  /* line 887, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  footer.page-footer .copyright-wrapper {
+    padding-bottom: 0px; }
+
+@media only screen and (min-width: 980px) {
+  /* line 895, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer .column {
+    float: none;
+    width: auto;
+    margin-left: -20px;
+    margin-right: -20px; }
+
+  /* line 903, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .minimal-layout .page-footer .column {
+    float: left;
+    width: 100%;
+    margin: 0; } }
+/* line 910, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.page-footer nav {
+  font-size: 14px;
+  line-height: 1.5;
+  columns: 1;
+  -webkit-columns: 1;
+  -moz-columns: 1; }
+  /* line 47, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer nav:before, .page-footer nav:after {
+    content: "";
+    display: table; }
+  /* line 51, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer nav:after {
+    clear: both; }
+  /* line 55, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .ie7 .page-footer nav {
+    zoom: 1; }
+
+@media only screen and (min-width: 500px) {
+  /* line 919, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .responsive-layout .page-footer nav ul {
+    columns: 4;
+    -webkit-columns: 4;
+    -moz-columns: 4; } }
+@media only screen and (min-width: 780px) {
+  /* line 919, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .responsive-layout .page-footer nav ul {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1; } }
+
+/* line 938, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.page-footer nav li {
+  clear: none;
+  float: none; }
+  @media only screen and (min-width: 500px) {
+    /* line 938, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .page-footer nav li {
+      float: left;
+      margin-right: 20px; } }
+  /* line 947, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer nav li a, .page-footer nav li a:visited {
+    color: #3f3f3f;
+    color: rgba(0, 0, 0, 0.75); }
+
+/* line 954, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+.page-footer .copyright-wrapper {
+  font-size: 12px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0; }
+  /* line 960, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer .copyright-wrapper .copyright {
+    margin-bottom: 0px; }
+  /* line 964, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .page-footer .copyright-wrapper .tagline {
+    display: block; }
+  /* line 969, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+  .pre-responsive-layout .page-footer .copyright-wrapper .copyright, .pre-responsive-layout .page-footer .copyright-wrapper .tagline {
+    display: inline; }
+  @media only screen and (min-width: 500px) {
+    /* line 954, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .page-footer .copyright-wrapper {
+      font-size: 12px;
+      line-height: 1.5; }
+      /* line 978, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .page-footer .copyright-wrapper .tagline {
+        display: inline; }
+      /* line 982, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+      .page-footer .copyright-wrapper li {
+        margin-right: 15px; } }
+  @media only screen and (min-width: 780px) {
+    /* line 988, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
+    .page-footer .copyright-wrapper .copyright {
+      display: inline; } }
