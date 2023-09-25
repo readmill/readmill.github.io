@@ -1,21 +1,15 @@
 @font-face {
-/*  font-family: 'Scala Sans SC';
-  src: url("../fonts/scalasans-regularsc-webfont.eot");
-  src: url("../fonts/scalasans-regularsc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scalasans-regularsc-webfont.woff") format("woff"), url("../fonts/scalasans-regularsc-webfont.ttf") format("truetype"), url("../fonts/scalasans-regularsc-webfont.svg#ScalaSansSCRegular") format("svg"); */
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
- /* font-family: 'Scala';
-  src: url("../fonts/scala-webfont.eot");
-  src: url("../fonts/scala-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-webfont.woff") format("woff"), url("../fonts/scala-webfont.ttf") format("truetype"), url("../fonts/scala-webfont.svg#Scala") format("svg"); */
+  font-family: Helvetica;
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
-/*  font-family: 'Scala';
-  src: url("../fonts/scala-italic-webfont.eot");
-  src: url("../fonts/scala-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-italic-webfont.woff") format("woff"), url("../fonts/scala-italic-webfont.ttf") format("truetype"), url("../fonts/scala-italic-webfont.svg#ScalaItalic") format("svg"); */
+  font-family: Helvetica;
   font-style: italic;
   font-weight: normal; }
 
@@ -69,7 +63,7 @@ img {
 
 /* line 111, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
 html {
-  font-family: Scala,Georgia,Times,serif;
+  font-family: Georgia,Times,serif;
   font-variant: normal;
   text-transform: none; }
 
@@ -138,7 +132,7 @@ p {
 a.btn, .btn {
   color: #ffffff;
   background-color: #70b32d;
-  font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+  font-family: Helvetica,Arial,sans-serif;
   text-transform: lowercase;
   font-size-adjust: .453;
   font-size: 15px;
@@ -221,7 +215,7 @@ img {
     /* line 273, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
     .next-steps ul:before {
       content: "how it works";
-      font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+      font-family: Helvetica,Arial,sans-serif;
       color: #808080;
       font-size: 15px;
       position: absolute;
@@ -364,7 +358,7 @@ img {
     margin: 0 auto; }
   /* line 417, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
   .history h4 {
-    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     font-size: 15px;
     color: #fff;
     text-transform: lowercase;
@@ -656,7 +650,7 @@ img {
       display: none; } }
   /* line 722, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
   .chart-img .date {
-    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif !important;
+    font-family: Helvetica,Arial,sans-serif !important;
     text-transform: lowercase;
     font-size: 15px;
     color: #404040; }
@@ -687,7 +681,7 @@ div.bar {
 
 /* line 756, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
 text {
-  font-family: "Scala Sans SC",Helvetica,Arial,sans-serif !important;
+  font-family: Helvetica,Arial,sans-serif !important;
   text-transform: lowercase; }
 
 /* line 761, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
@@ -736,7 +730,7 @@ circle {
   /* line 808, /Users/alexmiles/Dropbox (Dropbox)/dev/epilogue/source/stylesheets/all.scss */
   .milestone-label .date {
     color: black;
-    font-family: "Scala Sans SC",Helvetica,Arial,sans-serif;
+    font-family: Helvetica,Arial,sans-serif;
     text-transform: lowercase;
     border-bottom: 1px solid #e5e5e5;
     padding-bottom: 5px;
