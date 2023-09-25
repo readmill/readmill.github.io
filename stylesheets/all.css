@@ -1,21 +1,21 @@
 @font-face {
-  font-family: 'Scala Sans SC';
+/*  font-family: 'Scala Sans SC';
   src: url("../fonts/scalasans-regularsc-webfont.eot");
-  src: url("../fonts/scalasans-regularsc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scalasans-regularsc-webfont.woff") format("woff"), url("../fonts/scalasans-regularsc-webfont.ttf") format("truetype"), url("../fonts/scalasans-regularsc-webfont.svg#ScalaSansSCRegular") format("svg");
+  src: url("../fonts/scalasans-regularsc-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scalasans-regularsc-webfont.woff") format("woff"), url("../fonts/scalasans-regularsc-webfont.ttf") format("truetype"), url("../fonts/scalasans-regularsc-webfont.svg#ScalaSansSCRegular") format("svg"); */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
-  font-family: 'Scala';
+ /* font-family: 'Scala';
   src: url("../fonts/scala-webfont.eot");
-  src: url("../fonts/scala-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-webfont.woff") format("woff"), url("../fonts/scala-webfont.ttf") format("truetype"), url("../fonts/scala-webfont.svg#Scala") format("svg");
+  src: url("../fonts/scala-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-webfont.woff") format("woff"), url("../fonts/scala-webfont.ttf") format("truetype"), url("../fonts/scala-webfont.svg#Scala") format("svg"); */
   font-style: normal;
   font-weight: normal; }
 
 @font-face {
-  font-family: 'Scala';
+/*  font-family: 'Scala';
   src: url("../fonts/scala-italic-webfont.eot");
-  src: url("../fonts/scala-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-italic-webfont.woff") format("woff"), url("../fonts/scala-italic-webfont.ttf") format("truetype"), url("../fonts/scala-italic-webfont.svg#ScalaItalic") format("svg");
+  src: url("../fonts/scala-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/scala-italic-webfont.woff") format("woff"), url("../fonts/scala-italic-webfont.ttf") format("truetype"), url("../fonts/scala-italic-webfont.svg#ScalaItalic") format("svg"); */
   font-style: italic;
   font-weight: normal; }
 
